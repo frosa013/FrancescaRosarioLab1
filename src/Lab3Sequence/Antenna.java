@@ -52,11 +52,11 @@ public class Antenna implements SelfCheckCapable {
 	}
 
 	/**
-	 * Antenna sends communications to NASA.
+	 * Antenna sends videos to NASA.
 	 */
 	public void TransmitVideo() {
 		// TODO Auto-generated method stub
-		System.out.println("Communication Sent");
+		System.out.println("Video Sent");
 	}
 
 }
