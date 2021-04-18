@@ -51,4 +51,12 @@ public class Antenna implements SelfCheckCapable {
 		mybrain.ExecutesCommand();
 	}
 
+	/**
+	 * Antenna sends communications to NASA.
+	 */
+	public void TransmitVideo() {
+		// TODO Auto-generated method stub
+		System.out.println("Communication Sent");
+	}
+
 }

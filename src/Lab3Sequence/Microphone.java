@@ -38,7 +38,8 @@ public class Microphone implements SelfCheckCapable {
 	public void RecordSound() {
 		// TODO Auto-generated method stub
 		System.out.println("Record Sound");
-		
+		Antenna myantenna = new Antenna();
+		myantenna.TransmitVideo();
 	}
 
 }
